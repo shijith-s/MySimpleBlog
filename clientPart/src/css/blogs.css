@@ -1,0 +1,131 @@
+.navBar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: darkcyan;
+  color: whitesmoke;
+  padding: 10px;
+  margin: 0;
+  margin-bottom: 50px;
+}
+
+.homepage {
+  min-height: 100%;
+  padding: 0;
+  margin: 0;
+  overflow-x: auto;
+}
+
+.homepage__blog {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin: 10px;
+}
+
+.homepage__blogDiv {
+  cursor: pointer;
+}
+
+.blogCard {
+  padding: 10px;
+  margin: 20px;
+  width: 300px;
+  height: 220px;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-shadow: 5px 4px 15px 10px rgba(0, 0, 0, 0.3);
+          box-shadow: 5px 4px 15px 10px rgba(0, 0, 0, 0.3);
+}
+
+.blogCard h3 {
+  margin: 5px;
+}
+
+.blogCard .blogCard__image {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -o-object-fit: contain;
+     object-fit: contain;
+  overflow: hidden;
+}
+
+.blogCard .blogCard__image img {
+  width: 100%;
+  height: 100%;
+}
+
+.blogCard .blogDetails {
+  font-size: 12px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.blogpage {
+  min-height: 100%;
+  padding: 0;
+  margin: 0;
+  overflow-x: auto;
+}
+
+.blogpage .navBar {
+  margin-bottom: 10px;
+}
+
+.blogpage > h1 {
+  margin: 20px;
+  font-size: 3em;
+}
+
+.blogpage .blogpage__blogImage {
+  width: auto;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.blogpage .blogpage__blogImage img {
+  width: 100%;
+  height: 100%;
+}
+
+.blogpage .blogpage__blogDetails {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 20px;
+}
+
+.blogpage .blogPage__content {
+  margin: 20px;
+}
+/*# sourceMappingURL=blogs.css.map */
