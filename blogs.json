@@ -1,0 +1,38 @@
+[
+  {
+    "_id": {
+      "$oid": "616042d9be5168b9ca93d1dc"
+    },
+    "title": "new blog",
+    "createdBy": "shijioth",
+    "content": "This is a new blog ",
+    "image": "http://localhost:9000/waterfall-min.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "616042d9be5168b9ca93d1dc"
+    },
+    "title": "react uses and causes",
+    "createdBy": "shijioth",
+    "content": "hello guys ",
+    "image": "http://localhost:9000/jeep-tourism-min.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "616042d9be5168b9ca93d1dc"
+    },
+    "title": "new blog",
+    "createdBy": "shijioth",
+    "content": "This is a new blog ",
+    "image": "http://localhost:9000/waterfall-min.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "61604ccabe5168b9ca93d1df"
+    },
+    "title": "latest blog",
+    "createdBy": "shijiith",
+    "content": "This is a rare blog ",
+    "image": "http://localhost:9000/beaches-min.jpg"
+  }
+]
