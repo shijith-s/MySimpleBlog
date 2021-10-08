@@ -15,7 +15,8 @@
   min-height: 100%;
   padding: 0;
   margin: 0;
-  overflow-x: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 .homepage__blog {
@@ -73,7 +74,7 @@
 }
 
 .blogCard .blogDetails {
-  font-size: 12px;
+  margin: 5px;
   -ms-flex-negative: 0;
       flex-shrink: 0;
   display: -webkit-box;
@@ -88,7 +89,8 @@
   min-height: 100%;
   padding: 0;
   margin: 0;
-  overflow-x: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 .blogpage .navBar {
@@ -103,6 +105,7 @@
 .blogpage .blogpage__blogImage {
   width: auto;
   height: auto;
+  max-height: 500px;
   -o-object-fit: cover;
      object-fit: cover;
   margin: 20px;
